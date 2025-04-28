@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>AgriMarket -Inscription d'un Acheteur</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- debut navigation -->
+        <div class="container-fluid fixed-top">
+            <div class="container topbar bg-primary d-none d-lg-block">
+                <div class="d-flex justify-content-between">
+                    <div class="top-info ps-2">
+                        <small class="me-3"><i class="fas fa-map-marker-alt me-2 text-secondary"></i> <a href="#" class="text-white">Ucad, Senegal</a></small>
+                        <small class="me-3"><i class="fas fa-envelope me-2 text-secondary"></i><a href="#" class="text-white">agrimarket@gmail.com</a></small>
+                    </div>
+                    <div class="top-link pe-2">
+                        <a href="confidentialite.html" class="text-white"><small class="text-white mx-2">Politique de confidentialité</small>/</a>
+                        <a href="utilisation.html" class="text-white"><small class="text-white mx-2">Conditions d'utilisation</small>/</a>
+                        <a href="#" class="text-white"><small class="text-white ms-2">Ventes et Remboursements</small></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-0">
+                <nav class="navbar navbar-light bg-white navbar-expand-xl">
+                    <img src="img/logo1.jpg" alt="Logo AgriMarket" class="logo-img" style="width: 100px; height: auto;">
+                    <a href="Accueil.html" class="navbar-brand"><h1 class="text-primary display-6">AgriMarket</h1></a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="Accueil.html" class="nav-item nav-link active">Accueil</a>
+                            
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">S'inscrire</a>
+                                <div class="dropdown-menu m-0 bg-secondary rounded-0">
+                                    <a href="Agriculteur.html" class="dropdown-item">Agriculteur</a>
+                            
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <div class="d-flex m-3 me-0">
+                            <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search text-primary"></i></button>
+                          
+                           
+                                 </a>
+                                 <div class="text-center">
+                                    <a href="Authentification.html" class="my-auto">
+                                        <i class="fas fa-user fa-2x"></i>
+                                    </a>
+                                    <div class="mt-2">Connexion</div>
+                                </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Fin barNavigation -->
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Faire Des Recherches Sur les produits agricoles</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="Recherche" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+        <!-- Single Page Header start -->
+        <div class="container-fluid page-header py-5">
+            <h1 class="text-center text-white display-6">Inscription d'un Acheteur</h1>
+            <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+                <li class="breadcrumb-item"><a href="index.html">Annuler</a></li>
+                <li class="breadcrumb-item active text-white">Pages</li>
+            </ol>
+        </div>
+        <!-- Single Page Header End -->
+
+
+        <!-- Checkout Page Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <h1 class="mb-4">Formulaire d'Inscription</h1>
+                <form action="enregistrementAcheteur.php" method="post">
+                    <!-- Nom et Prénom -->
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="nom" class="form-label">Nom</label>
+                            <input type="text" class="form-control" id="nom" name="nom" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="prenom" class="form-label">Prénom</label>
+                            <input type="text" class="form-control" id="prenom" name="prenom" required>
+                        </div>
+                    </div>
+    
+                    <!-- Adresse -->
+                    <div class="mb-3">
+                        <label for="adresse" class="form-label">Adresse</label>
+                        <input type="text" class="form-control" id="adresse" name="adresse" required>
+                    </div>
+    
+                    <!-- Numéro de téléphone -->
+                    <div class="mb-3">
+                        <label for="telephone" class="form-label">Numéro de téléphone</label>
+                        <input type="tel" class="form-control" id="telephone" name="telephone" required>
+                    </div>
+    
+                    <!-- Nom d'utilisateur -->
+            <div class="mb-3">
+                <label for="utilisateur" class="form-label">Nom d'utilisateur</label>
+                <input type="text" class="form-control" id="utilisateur" name="utilisateur" required>
+            </div>
+
+            <!-- Mot de passe -->
+            <div class="mb-3">
+                <label for="motdepasse" class="form-label">Mot de passe</label>
+                <input type="password" class="form-control" id="motdepasse" name="motdepasse" required>
+            </div>
+
+            <!-- Confirmer le mot de passe -->
+            <div class="mb-3">
+                <label for="confirmermotdepasse" class="form-label">Confirmer le mot de passe</label>
+                <input type="password" class="form-control" id="confirmermotdepasse" name="confirmermotdepasse" required>
+            </div>
+
+            <!-- Bouton Soumettre -->
+            <button type="submit" class="btn btn-primary">Soumettre</button>
+        </form>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+        <!-- Script JavaScript pour la validation du formulaire -->
+        <script>
+            $(document).ready(function () {
+                $('form').submit(function (event) {
+                    // Validation du mot de passe
+                    var motDePasse = $('#motdepasse').val();
+                    var confirmerMotDePasse = $('#confirmermotdepasse').val();
+    
+                    if (motDePasse !== confirmerMotDePasse) {
+                        alert("Les mots de passe ne correspondent pas.");
+                        event.preventDefault(); // Empêche l'envoi du formulaire
+                    }
+                });
+            });
+        </script>
+                       <div class="row g-4 text-center align-items-center justify-content-center py-4">
+                        <div class="col-12">
+                            <p class="text-dark">
+                                Les produits agricoles que vous avez choisis ne sont pas seulement délicieux,
+                                 mais ils jouent également un rôle essentiel dans le maintien d'une alimentation 
+                                 saine et équilibrée. En faisant le choix de ces produits, vous investissez dans votre
+                                  santé et votre qualité de vie.
+                            </p>
+                           
+                        </div>
+                    </div>
+                    <!-- Section pour ajouter des images -->
+<div class="row g-4 text-center align-items-center justify-content-center">
+    <div class="col-12">
+        <p class="text-dark">
+            Ajoutez des images de vos propres produits pour une expérience de magasinage plus personnalisée. Cliquez sur le bouton ci-dessous pour télécharger des images de qualité de vos produits agricoles.
+        </p>
+    </div>
+    
+</div>
+
+<!-- Images des produits avec explications -->
+<div class="row g-4 text-center align-items-center justify-content-center">
+    <!-- Image 1 - Arachide -->
+    <div class="col-6 col-md-4">
+        <img src="img/arachide.webp" class="img-fluid rounded-circle" alt="Arachide">
+        <p class="text-dark mt-2">
+            L'arachide est une excellente source de protéines et d'acides gras essentiels.
+             Elle contribue à la croissance musculaire et à la santé du cœur.
+        </p>
+    </div>
+
+    <!-- Image 2 - Mil -->
+    <div class="col-6 col-md-4">
+        <img src="img/mil.jpg" class="img-fluid rounded-circle" alt="Mil">
+        <p class="text-dark mt-2">
+            Le mil est riche en nutriments tels que le fer, le magnésium et les fibres. 
+            Il favorise la santé digestive et renforce le système immunitaire.
+        </p>
+    </div>
+
+    <!-- Image 3 - Maïs -->
+    <div class="col-6 col-md-4">
+        <img src="img/mais.jpg" class="img-fluid rounded-circle" alt="Maïs">
+        <p class="text-dark mt-2">
+            Le maïs est une céréale fondamentale, fournissant des glucides complexes 
+            pour l'énergie et des antioxydants bénéfiques pour la vision.
+        </p>
+    </div>
+
+    <!-- Image 4 - Fruits -->
+    <div class="col-6 col-md-4">
+        <img src="img/fruits.webp" class="img-fluid rounded-circle" alt="Fruits">
+        <p class="text-dark mt-2">
+            Les fruits apportent des vitamines, des minéraux et des antioxydants essentiels. Ils renforcent le système immunitaire et favorisent une peau saine.
+        </p>
+    </div>
+</div>
+
+
+                    
+        <!-- Checkout Page End -->
+
+
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
+            <div class="container py-5">
+                <div class="row g-4">
+                    <div class="col-lg-3">
+                        <a href="#">
+                            <h1 class="text-primary mb-0">AgriMarket</h1>
+                            <p class="text-secondary mb-0">Fruits & Légumes Frais</p>
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <!-- Suppression de la barre de recherche -->
+                    </div>
+                    <!-- Suppression des boutons de médias sociaux -->
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="text-light mb-3">Optimisation de la Commercialisation</h4>
+                            <p class="mb-4">Nous nous engageons à maximiser la visibilité de vos produits agricoles sur le marché. Notre approche moderne de la commercialisation garantit une exposition efficace et des opportunités de croissance pour votre activité.</p>
+                            <a href="#" class="btn border-secondary py-2 px-4 rounded-pill text-primary">Découvrir nos services</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="d-flex flex-column text-start footer-item">
+                            <h4 class="text-light mb-3">Informations sur la boutique</h4>
+                            <a class="btn-link" href="">À propos de nous</a>
+                            <a class="btn-link" href="">Contactez-nous</a>
+                            <a class="btn-link" href="">Politique de confidentialité</a>
+                            <a class="btn-link" href="">Conditions générales</a>
+                            <a class="btn-link" href="">Politique de retour</a>
+                            <a class="btn-link" href="">FAQs & Aide</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="d-flex flex-column text-start footer-item">
+                            <h4 class="text-light mb-3">Compte</h4>
+                            <a class="btn-link" href="">Mon compte</a>
+                            <a class="btn-link" href="">Détails de la boutique</a>
+                            <a class="btn-link" href="">Panier d'achat</a>
+                            <a class="btn-link" href="">Liste de souhaits</a>
+                            <a class="btn-link" href="">Historique des commandes</a>
+                            <a class="btn-link" href="">Commandes internationales</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="text-light mb-3">Contact</h4>
+                            <p>Adresse: UCAD, Département de Mathématiques et Informatique, Sénégal</p>
+                            <p>Email: mbaye28@gmail.com (Mbaye Ndiaye), fatima98@gmail.com (Fatima Kasse)</p>
+                            <p>Téléphone: +221 78 362 95 62 (Mbaye Ndiaye), +221 76 466 57 83 (Fatima Kasse)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        
+        
+
+       
+
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
